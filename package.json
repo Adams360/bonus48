@@ -1,0 +1,16 @@
+{
+  "name": "ron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass ./sass/main.scss ./css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.1"
+  },
+  "dependencies": {}
+}

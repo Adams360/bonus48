@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: f1faee;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  color: #1A2636;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.whatsapp-btn span {
+  color: #1A2636;
+  font-weight: 700;
+  margin: 0 0 0 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 65vh;
+  background-image: linear-gradient(to right bottom, #F7EBEC, transparent), url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero__content h1 {
+  line-height: 1.1;
+  font-size: 10rem;
+  display: inline-block;
+  font-weight: 400;
+}
+.hero__content h1 span {
+  display: block;
+  font-size: 50%;
+  font-weight: 700;
+}
+.hero__content h1 span::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: currentColor;
+  margin-bottom: 10px;
+}
+.hero__content a {
+  display: block;
+  text-decoration: none;
+  color: #1A2636;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border: 2px solid currentColor;
+  background-color: #F7EBEC;
+  margin: 4rem auto;
+  padding: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+.hero__content a:hover {
+  transform: scale(1.1);
+}
+
+.about {
+  padding: 5rem 0;
+}
+.about h2 {
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.about h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

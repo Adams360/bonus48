@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: f1faee;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    color: $clr-100;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    span {
+        color: $clr-100;
+        font-weight: 700;
+        margin: 0 0 0 5px;
+    }
+}
